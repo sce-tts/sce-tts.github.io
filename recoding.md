@@ -1,8 +1,10 @@
 # 음성 녹음
 
-다음의 내용을 따라할 때, 아래 이미지를 클릭하여 튜토리얼 유튜브 영상을 참고하시면 더 좋습니다.
+다음의 내용을 따라할 때, 아래 튜토리얼 유튜브 영상을 참고하시면 더 좋습니다.
 
-[![SCE-TTS: 내 목소리로 TTS 만들기 - 음성 녹음](http://img.youtube.com/vi/3iZMIprnZOo/0.jpg)](https://www.youtube.com/watch?v=3iZMIprnZOo)
+<div class="video-container">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/3iZMIprnZOo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 자신의 목소리로 TTS를 만들기 위해서는 먼저 자신의 목소리를 잘 녹음해야 합니다.  
 특히 이 가이드에서는 머신 러닝에 바로 사용할 수 있는 데이터로 바로 녹음할 수 있도록, Mimic Recording Studio라는 프로그램을 사용하여 녹음을 진행합니다.

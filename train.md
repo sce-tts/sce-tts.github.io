@@ -1,8 +1,10 @@
 # 머신 러닝 수행
 
-다음의 내용을 따라할 때, 아래 이미지를 클릭하여 튜토리얼 유튜브 영상을 참고하시면 더 좋습니다.
+다음의 내용을 따라할 때, 아래 튜토리얼 유튜브 영상을 참고하시면 더 좋습니다.
 
-[![SCE-TTS: 내 목소리로 TTS 만들기 - 음성 학습](http://img.youtube.com/vi/e-BmK9VZzRM/0.jpg)](https://www.youtube.com/watch?v=e-BmK9VZzRM/)
+<div class="video-container">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/e-BmK9VZzRM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 일반적으로 TTS는 크게 두 가지 단계로 나뉘어 수행됩니다.
 

@@ -1,8 +1,10 @@
 # 음성 합성 테스트
 
-다음의 내용을 따라할 때, 아래 이미지를 클릭하여 튜토리얼 유튜브 영상을 참고하시면 더 좋습니다.
+다음의 내용을 따라할 때, 아래 튜토리얼 유튜브 영상을 참고하시면 더 좋습니다.
 
-[![SCE-TTS: 내 목소리로 TTS 만들기 - 학습 결과 테스트](http://img.youtube.com/vi/8drznWgqwfc/0.jpg)](https://www.youtube.com/watch?v=8drznWgqwfc/)
+<div class="video-container">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/8drznWgqwfc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 학습된 결과를 통한 음성 합성 테스트는 아래 링크의 내용을 참조하세요.
 

@@ -1,9 +1,11 @@
 # TTS 활용하기
 
 
-다음의 내용을 따라할 때, 아래 이미지를 클릭하여 튜토리얼 유튜브 영상을 참고하시면 더 좋습니다.
+다음의 내용을 따라할 때, 아래 튜토리얼 유튜브 영상을 참고하시면 더 좋습니다.
 
-[![SCE-TTS: 내 목소리로 TTS 만들기 - TTS 활용](http://img.youtube.com/vi/Tr5sjaeDKbw/0.jpg)](https://www.youtube.com/watch?v=Tr5sjaeDKbw/)
+<div class="video-container">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/Tr5sjaeDKbw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 성공적으로 학습이 완료됬다면, 이제 만들어진 TTS를 사용할 시간입니다!
 
