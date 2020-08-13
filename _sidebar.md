@@ -1,4 +1,4 @@
-* [프로젝트 소개](/)
+* [프로젝트 소개](/index.md)
 * [들어가며](/intro.md)
 * [필요한 것](/requirement.md)
 * [음성 녹음](/recoding.md)
