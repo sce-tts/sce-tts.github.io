@@ -8,4 +8,4 @@
 
 학습된 결과를 통한 음성 합성 테스트는 아래 링크의 내용을 참조하세요.
 
-- [SCE-TTS: 음성합성 데모 Colab](https://colab.research.google.com/drive/1fLuExR42nz6R5uGdSi7eW-uz2_EVXysF?usp=sharing)
+- [SCE-TTS: 음성합성 데모 Colab](https://colab.research.google.com/drive/13pqat2mWsMha7Vn_-Q5_Ih8MDkvz3q5a?usp=sharing)
