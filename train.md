@@ -27,10 +27,10 @@
 
 Glow-TTS 학습과 관련된 내용은 아래 링크의 내용을 참조하세요.
 
-- [SCE-TTS: Glow-TTS 학습 Colab](https://colab.research.google.com/drive/1IlZt42ETvNHthRFXfwNSSH-ftWthxzqr?usp=sharing)
+- [SCE-TTS: Glow-TTS 학습 Colab](https://colab.research.google.com/drive/18DWc-6Gh5bDC6P9nIYaL9GFPy_YcXmwE?usp=sharing)
 
 ## Multi-band MelGAN 학습
 
 Multi-band MelGAN 학습과 관련된 내용은 아래 링크의 내용을 참조하세요.
 
-- [SCE-TTS: Multi-band MelGAN 학습 Colab](https://colab.research.google.com/drive/1UinTd1Kp1ytwPQ4QWA610ZKOVfmPDdn5?usp=sharing)
+- [SCE-TTS: Multi-band MelGAN 학습 Colab](https://colab.research.google.com/drive/1GLeFgU7e6HkmI8Lc0IhYfe6up8iQ7Ihb?usp=sharing)
