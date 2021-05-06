@@ -77,8 +77,8 @@ Mimic Recording Studio로 음성 녹음을 충분히 수행했다면, 실제 머
 4. 열린 PowerShell 창 또는 명령 프롬프트 창은 잠시 그대로 두고, 파일 탐색기에서 `backend/audio_files` 폴더를 엽니다.
 5. `audio_files` 폴더 내부에 존재하는 폴더 이름을 복사해둡니다.  
 (예시: `110d3ec5-4a5a-0f63-a8a1-13345418c85b`)
-6. 열린 PowerShell 창 또는 명령 프롬프트 창에 `docker-compose run --rm backend generate_ljs_audio_text.py <복사한 폴더 이름>`을 입력합니다.  
-(예시: `docker-compose run --rm backend generate_ljs_audio_text.py 110d3ec5-4a5a-0f63-a8a1-13345418c85b`)
+6. 열린 PowerShell 창 또는 명령 프롬프트 창에 `docker-compose run --rm backend python generate_ljs_audio_text.py <복사한 폴더 이름>`을 입력합니다.  
+(예시: `docker-compose run --rm backend python generate_ljs_audio_text.py 110d3ec5-4a5a-0f63-a8a1-13345418c85b`)
 7. 실행이 완료될 때까지 기다립니다.
 8. 위 과정을 완료하면, `backend` 폴더 내부에 `filelists` 폴더가 생성됩니다.  
 
