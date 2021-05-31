@@ -44,10 +44,18 @@
       homepage: 'index.md',
       auto2top: true,
       loadSidebar: true,
+      loadNavbar: true,
+      notFoundPage: true,
       subMaxLevel: 3,
       themeColor: '#4c9c2c',
       disqus: 'sce-tts',
       ga: 'UA-39395407-7',
+      pagination: {
+        previousText: 'PREVIOUS',
+        nextText: 'NEXT',
+        crossChapter: true,
+        crossChapterText: true,
+      },
       plugins: [
         EditOnGithubPlugin.create(
           'https://github.com/sce-tts/sce-tts.github.io/blob/master/',
@@ -60,7 +68,7 @@
   <script src="//cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify@4/lib/plugins/zoom-image.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/docsify@4/lib/plugins/disqus.min.js"></script>
+  <script src="/plugins/disqus.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify@4/lib/plugins/ga.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
 </body>
