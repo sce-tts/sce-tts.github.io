@@ -4,6 +4,22 @@
 See https://raw.githubusercontent.com/docsifyjs/docsify/v4.12.1/src/plugins/disqus.js
 */
 
+const fixedPath = location.href.replace('/-/', '/#/');
+if (fixedPath !== location.href) {
+  location.href = fixedPath;
+}
+
+function disqus_identifier(path) {
+  if (path == '/v1/test') {
+    return '/test';
+  } else if (path == '/v1/train') {
+    return '/train';
+  } else if (path == '/v1/recording') {
+    return '/recording';
+  }
+  return path;
+}
+
 function install(hook, vm) {
   const dom = Docsify.dom;
   const disqus = vm.config.disqus;
@@ -32,8 +48,8 @@ function install(hook, vm) {
       div.classList.remove('hide');
       // eslint-disable-next-line
       window.disqus_config = function() {
-        this.page.url = location.origin + '/#' + vm.route.path;
-        this.page.identifier = vm.route.path;
+        this.page.url = 'https://sce-tts.github.io/-' + vm.route.path;
+        this.page.identifier = disqus_identifier(vm.route.path);
         this.page.title = document.title;
       };
     } else {
@@ -49,8 +65,8 @@ function install(hook, vm) {
         window.DISQUS.reset({
           reload: true,
           config: function() {
-            this.page.url = location.origin + '/#' + vm.route.path;
-            this.page.identifier = vm.route.path;
+            this.page.url = 'https://sce-tts.github.io/-' + vm.route.path;
+            this.page.identifier = disqus_identifier(vm.route.path);
             this.page.title = document.title;
           },
         });
