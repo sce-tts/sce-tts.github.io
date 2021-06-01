@@ -1,4 +1,4 @@
-* [프로젝트 소개](/)
+* [프로젝트 소개](/v2/index.md)
 * [들어가며](/v2/intro.md)
 * [변경사항](/v2/changelog.md)
 * [필요한 것](/v2/requirement.md)
