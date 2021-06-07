@@ -28,7 +28,7 @@
 프롬프트가 실행되고, Mimic Recording Studio의 서버를 실행하게 됩니다.  
 
 명령 프롬프트 중간에 `You can now view mimic-recording-studio in the browser.`라는
-메시지가 출력되면, `http://localhost:3000/`에 Google 크롬 브라우저로 접속하여
+메시지가 출력되면, `http://localhost:5000/`에 Google 크롬 브라우저로 접속하여
 mimic-recording-studio를 사용할 수 있습니다.
 
 이 때, Mimic Recording Studio 접속은 **반드시 Google 크롬 브라우저로**
