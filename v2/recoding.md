@@ -17,7 +17,7 @@
 한국어를 위해 개발되어 있지 않으므로, 바로 녹음을 진행할 수 있도록 수정한
 버전을 사용할 것입니다.
 
-## Mimic Recording Studio 설치 및 실행
+## Mimic Recording Studio 다운로드 및 실행
 
 앞으로 진행할 내용에 맞게 수정된 Mimic Recording Studio는 아래 링크에서
 내려받으실 수 있습니다.
