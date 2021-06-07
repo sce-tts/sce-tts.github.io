@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>SCE-TTS: 내 목소리로 TTS 만들기</title>
+  <script type="text/javascript">
+    // https://github.com/rafgraph/spa-github-pages/blob/gh-pages/404.html
+    var l = window.location;
+    if (l.pathname.startsWith("/-/")) {
+      // replace for disqus link
+      l.replace(
+        l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
+        l.pathname.replace(/\/-\//g,'/#/') +
+        ((l.hash || l.search) ? '?' : '') +
+        (l.hash ? 'id=' + l.hash.slice(1) : '') +
+        (l.search ? '&' + l.search.slice(1) : '')
+      )
+    } else {
+      l.replace(
+        l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
+        '/#' + l.pathname +
+        ((l.hash || l.search) ? '?' : '') +
+        (l.hash ? 'id=' + l.hash.slice(1) : '') +
+        (l.search ? '&' + l.search.slice(1) : '')
+      )
+    }
+  </script>
+</head>
+<body>
+</body>
+</html>

@@ -1,4 +1,4 @@
-![logo](/_media/logo.png)
+![logo](/v2/_media/logo.png)
 
 # SCE-TTS: 내 목소리로 TTS 만들기
 
