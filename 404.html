@@ -11,17 +11,15 @@
       l.replace(
         l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
         l.pathname.replace(/\/-\//g,'/#/') +
-        ((l.hash || l.search) ? '?' : '') +
-        (l.hash ? 'id=' + l.hash.slice(1) : '') +
-        (l.search ? '&' + l.search.slice(1) : '')
+        l.search +
+        l.hash
       )
     } else {
       l.replace(
         l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
         '/#' + l.pathname +
-        ((l.hash || l.search) ? '?' : '') +
-        (l.hash ? 'id=' + l.hash.slice(1) : '') +
-        (l.search ? '&' + l.search.slice(1) : '')
+        l.search +
+        l.hash
       )
     }
   </script>
