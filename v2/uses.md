@@ -20,7 +20,7 @@ SCE-TTS에서는 아래의 두가지 기능을 제공하는 TTS 서버를 제공
 
 TTS 서버는 아래 주소에서 내려받으실 수 있습니다.
 
-> [TTS 서버 다운로드](https://drive.google.com/file/d/1m-aSKE-H3fn-kXsToVXm2W9ALBflzPSF/view?usp=sharing)
+> [TTS 서버 다운로드](https://drive.google.com/file/d/11f44AmB4o8VgKehuJqe6IGbe-7CH6ca2/view?usp=sharing)
 
 내려받은 파일을 압축을 해제한 후, `models` 폴더에 학습된 모델 파일들을 복사합니다.
 
