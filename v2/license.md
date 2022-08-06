@@ -22,7 +22,7 @@ SCE-TTS 프로젝트에서 제공하는 주요 코드 및 데이터는 다음과
     - 원본 코드 저장소: https://github.com/coqui-ai/TTS
     - Mozilla Public License 2.0
 
-이하의 데이터는 [CC-BY 2.0](https://creativecommons.org/licenses/by/2.0/) 라이선스로 배포하며, 텍스트 데이터의 원문은 한국정보화진흥원 [AI Hub](http://www.aihub.or.kr/)에서 제공하는 [한국어 대화 텍스트 데이터](http://www.aihub.or.kr/aidata/85)와 [한국어-영어 번역(병렬) 말뭉치 텍스트 데이터](http://www.aihub.or.kr/aidata/87)입니다.
+이하의 데이터는 [CC-BY 2.0](https://creativecommons.org/licenses/by/2.0/) 라이선스로 배포하며, 텍스트 데이터의 원문은 한국정보화진흥원 [AI Hub](https://www.aihub.or.kr/)에서 제공하는 [한국어 대화 텍스트 데이터](https://www.aihub.or.kr/aihubdata/data/view.do?dataSetSn=116)와 [한국어-영어 번역(병렬) 말뭉치 텍스트 데이터](https://www.aihub.or.kr/aihubdata/data/view.do?dataSetSn=126)입니다.
 
 - [음성 데이터 녹음을 위한 한국어 코퍼스](https://github.com/sce-tts/mimic-recording-studio/blob/master/backend/prompts/korean_corpus.csv)
 - [SleepingCE Speech Dataset](https://drive.google.com/file/d/1UpoBaZRTJXkTdsoemLBWV48QClm6hpTX/view?usp=sharing)
